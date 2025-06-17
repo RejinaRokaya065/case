@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+}
+.navbar {
+    z-index: 10000;
+    padding: 30px;
+    margin: 0;
+    background-color: black;
+    position:relative;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    color: white;
+    font-size: x-large;
+    margin-left: 40px;
+ 
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row; 
+    font-size: x-large;
+    margin-right: 50px;
+}
+.navbar ul li{
+    height: 25px;
+    padding: 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar ul li a:hover {
+    color: lightblue;
+}
+
+.navbar a::after{
+    content:"" ;
+    display: block;
+    width:0;
+    height: 2px;
+    background-color: orange;
+    margin-top: 3px;
+    transition: 0.2s;
+}
+.navbar a:hover::after{
+     width: 100%;
+}
+.navlinks.active{
+    display: flex;
+}
+
+/*God */
+
+.margin{
+    margin-top: 70px;
+}
+.god_container{
+    display: flex;
+    margin-top: 50px;
+    
+}
+
+.small-god img{
+    height: 45%;
+    width: 40%;
+    border: solid black 2px;
+    border-radius: 10px;
+    margin: 30px;  
+  
+}
+.small-god{
+    height: 230px;
+    width: 200px;
+    /* border: solid black 2px; */
+}
+.god{
+
+  margin-bottom: 50%;
+ 
+}
+.god img{
+  height: 70vh;
+  width:90% ;
+  
+}
+
+.god_form h1{
+   color:  #1a242f;
+}
+
+.container {
+            background: #fff;
+            padding: 30px 40px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            width: 350px;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .price {
+            font-size: 20px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        select {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            background: #fafafa;
+        }
+        .btn {
+            width: 100%;
+            padding: 12px;
+            background: #2b4eff;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background: #1c3ed6;
+        }
+/*Footer*/
+.foot {
+  text-align: center;
+ margin-bottom: 0px;
+ background-color:#2c3e50;
+ justify-content: space-between;
+ padding:  20px;
+ color:white;
+ display: flex;
+}
+.foot h1{
+    text-align: left;
+}
+
+

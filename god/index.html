@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+
+<!-- Navigation Bar -->
+<div class="navbar">
+    <div class="logo"><strong>Caseunity</strong></div>
+    <div>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Place Order</a>
+    </div>
+</div>
+
+<!-- Breadcrumb -->
+<div class="breadcrumb">
+    Home <span>/</span> Products <span>/</span> God
+</div>
+
+<!-- Product Section -->
+<div class="container">
+    <!-- Product Image -->
+    <div class="product-image">
+        <img src="./god.png" alt="Shiva Case">
+    </div>
+    <div class="product-small">
+        <img src="./god.png" alt="Shiva Case">
+    </div>
+
+    <!-- Product Details -->
+    <div class="product-details">
+        <div class="product-title">GOD #1011</div>
+        <div class="product-price">Rs 850 - Rs 1,500</div>
+
+        <div class="form-group">
+            <label for="brand">Select Brand *</label>
+            <select id="brand">
+                <option value="">Select Brand...</option>
+                <option value="samsung">SAMSUNG</option>
+                <option value="apple">APPLE</option>
+                <option value="vivo">VIVO</option>
+                <option value="oneplus">ONEPLUS</option>
+                <option value="realme">REALME</option>
+                <option value="redmi">REDMI</option>
+                <option value="oppo">OPPO</option>
+                <option value="huwaei">HUWAEI</option>
+                <option value="google pixel">GOOGLE PIXEL</option>
+                <option value="xiaomi">XIAOMI</option>
+                <option value="nothing-phone">NOTHING PHONE</option>
+                
+
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="model">Select Model *</label>
+            <select id="model">
+                <option value="">Select Model...</option>
+            </select>
+        </div>
+
+        <button class="btn" onclick="addToCart()">Order Now</button>
+    </div>
+    <script src="./script.js"></script>
+</div>
+</body>
+</html>
